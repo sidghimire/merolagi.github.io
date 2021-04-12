@@ -49,6 +49,7 @@
 .btn-type-2 {
   background: var(--btn-color);
   color: white;
+  border: solid 1px var(--btn-color);
   border-radius: 10px;
   transition: border 0.5s, color 0.5s;
 }
