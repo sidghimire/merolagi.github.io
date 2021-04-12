@@ -1,5 +1,7 @@
 # merolagi.github.io
 So This Is Github, Always add files here to see the site running.
+https://sidghimire.github.io/merolagi.github.io/
+
 
 Do not touch the file you have edited.
 Do not delete any files. 
