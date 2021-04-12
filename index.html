@@ -53,8 +53,14 @@
     </div>
 
     <div
-      class="container-fluid row"
-      style="align-items: center; margin-bottom: 10px"
+      class="container-fluid d-flex sticky-top no-gutters"
+      style="
+        align-items: center;
+        margin-bottom: 10px;
+        z-index: 999;
+        background-color: white;
+        padding-bottom: 5px;
+      "
     >
       <div class="col-md-1">
         <img src="./images/logo.png" class="image-type-1" />
@@ -121,6 +127,68 @@
           ></span
         >
       </div>
+    </div>
+    <div class="l-features-section">
+      <div class="row">
+        <div class="col-md-6">
+          <div
+            id="featuredImages"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+            style="width: 70%; margin: auto"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#featuredImages"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#featuredImages"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#featuredImages"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="./images/1.jpg"
+                  class="d-block"
+                  style="max-height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/2.jpg"
+                  class="d-block w-100"
+                  style="max-height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/3.jpg"
+                  class="d-block w-100"
+                  style="max-height: 400px"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6"></div>
     </div>
   </body>
 </html>
