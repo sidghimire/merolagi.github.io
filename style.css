@@ -116,3 +116,7 @@
   color: var(--btn-color);
   margin-bottom: 20px;
 }
+.l-features-section {
+  background: var(--main-color);
+  padding: 30px;
+}
