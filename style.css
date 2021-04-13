@@ -139,4 +139,9 @@
   .l-fixation-1 {
     padding-left: 10%;
   }
+  .l-register-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
