@@ -151,7 +151,8 @@
   vertical-align: middle;
 }
 .l-fixation-2 {
-  padding: 70px;
+  padding: 50px;
+  padding-inline: 90px;
 }
 .l-email-section {
   display: -webkit-box;
