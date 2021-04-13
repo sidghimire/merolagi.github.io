@@ -1,9 +1,20 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   outline: none;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 :root {
   --main-color: #1a1938;
@@ -38,10 +49,17 @@
   font-size: 73%;
   color: #323648;
   text-align: left;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px;
+  -webkit-transition: border-bottom 0.5s, background 0.5s;
+  -o-transition: border-bottom 0.5s, background 0.5s;
   transition: border-bottom 0.5s, background 0.5s;
   width: 15%;
+}
+.text-style-2-sidebar {
+  border-bottom: var(--btn-color) solid 2px;
 }
 .text-style-2:hover {
   border-bottom: var(--btn-color) solid 2px;
@@ -55,6 +73,8 @@
   color: white;
   border: solid 1px var(--btn-color);
   border-radius: 10px;
+  -webkit-transition: border 0.5s, color 0.5s;
+  -o-transition: border 0.5s, color 0.5s;
   transition: border 0.5s, color 0.5s;
   text-align: center;
 }
@@ -70,6 +90,8 @@
   text-transform: uppercase;
   font-size: 75%;
   color: #323648;
+  -webkit-transition: border 0.5s, color 0.5s;
+  -o-transition: border 0.5s, color 0.5s;
   transition: border 0.5s, color 0.5s;
   border: solid 1px white;
   border-radius: 10px;
@@ -132,8 +154,16 @@
   padding: 50px;
 }
 .l-email-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
+}
+.l-bar-icon {
+  color: black;
+}
+.l-bar-icon:hover {
+  color: black;
 }
 @media (max-width: 768px) {
   .l-md-collapse {
@@ -145,13 +175,17 @@
     height: 90%;
     vertical-align: middle;
   }
-  .l-fixation-1 {
-    padding-left: 10%;
-  }
   .l-register-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .l-wallpaper-image {
     width: 100%;
@@ -165,8 +199,13 @@
     font-size: 60px;
   }
   .l-email-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .get-started-btn {
     padding: 15px;
@@ -174,5 +213,8 @@
   .l-fixation-3 {
     margin: auto;
     width: 60%;
+  }
+  .l-bar-icon {
+    display: block;
   }
 }
