@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  user-select: none;
 }
 :root {
   --main-color: #1a1938;
@@ -37,8 +38,10 @@
   font-size: 73%;
   color: #323648;
   text-align: left;
+  align-items: center;
   padding: 20px;
   transition: border-bottom 0.5s, background 0.5s;
+  width: 15%;
 }
 .text-style-2:hover {
   border-bottom: var(--btn-color) solid 2px;
@@ -65,8 +68,6 @@
   text-transform: uppercase;
   font-size: 75%;
   color: #323648;
-  text-align: left;
-  padding: 15px;
   transition: border 0.5s, color 0.5s;
   border: solid 1px white;
   border-radius: 10px;
@@ -119,4 +120,23 @@
 .l-features-section {
   background: var(--main-color);
   padding: 30px;
+}
+.l-header-btn {
+  margin-inline: 10px;
+  width: 150px;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .l-md-collapse {
+    display: none;
+  }
+  .l-header-btn {
+    margin-inline: 10px;
+    width: 120px;
+    height: 90%;
+    vertical-align: middle;
+  }
+  .l-fixation-1 {
+    padding-left: 10%;
+  }
 }
