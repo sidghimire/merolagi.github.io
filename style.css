@@ -50,11 +50,13 @@
 }
 
 .btn-type-2 {
+  width: 100%;
   background: var(--btn-color);
   color: white;
   border: solid 1px var(--btn-color);
   border-radius: 10px;
   transition: border 0.5s, color 0.5s;
+  text-align: center;
 }
 .btn-type-2:hover {
   border: solid 1px var(--btn-color);
@@ -126,6 +128,13 @@
   width: 150px;
   vertical-align: middle;
 }
+.l-fixation-2 {
+  padding: 50px;
+}
+.l-email-section {
+  display: flex;
+  margin-bottom: 10px;
+}
 @media (max-width: 768px) {
   .l-md-collapse {
     display: none;
@@ -146,5 +155,24 @@
   }
   .l-wallpaper-image {
     width: 100%;
+  }
+  .l-fixation-2 {
+    padding: 20px;
+    text-align: justify;
+  }
+  .text-style-3 {
+    text-align: center;
+    font-size: 60px;
+  }
+  .l-email-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .get-started-btn {
+    padding: 15px;
+  }
+  .l-fixation-3 {
+    margin: auto;
+    width: 60%;
   }
 }
