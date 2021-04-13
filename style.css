@@ -9,12 +9,12 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 :root {
   --main-color: #1a1938;
@@ -50,8 +50,8 @@
   color: #323648;
   text-align: left;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 20px;
   -webkit-transition: border-bottom 0.5s, background 0.5s;
   -o-transition: border-bottom 0.5s, background 0.5s;
@@ -114,7 +114,7 @@
 .text-style-3 {
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
-  font-size: 70px;
+  font-size: 60px;
   color: var(--tertiary-color);
   line-height: 80px;
   margin-bottom: 20px;
@@ -182,11 +182,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .l-wallpaper-image {
     width: 100%;
@@ -205,8 +205,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .get-started-btn {
     padding: 15px;
