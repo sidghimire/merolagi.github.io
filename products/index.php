@@ -140,19 +140,31 @@
           <div class="additional-information " style="display: flex;flex-direction:column">
             <span class="l-label-1">Shipping Information <span class="bi-truck"></span></span>
             <div class="row">
-              <div class="col-3" style="padding-left: 25px;padding-top:10px">
-                <span class="row l-additional-info-label">Estimated Arrival</span>
-                <span class="row l-additional-info-label">Availability</span>
-                <span class="row l-additional-info-label">Return Policy</span>
-
+              <div class="row" style="padding-left: 25px;padding-top:10px">
+                <div class="col-3" >
+                  <span class="row l-additional-info-label">Estimated Arrival</span>
+                </div>
+                <div class="col-8">
+                  <span class="l-additional-info-label margin-30-res" style="color: black;">2-3 Days</span>
+                </div>
               </div>
-              <div class="col-8" style="padding-top:10px">
-                <span class="row l-additional-info-label margin-30-res" style="color: black;">2-3 Days</span>
-                <span class="row l-additional-info-label margin-30-res" style="color: black;">Kathmandu, Nepal</span>
-                <span class="row l-additional-info-label margin-30-res" style="color: black;">Returnable</span>
-
-
+              <div class="row" style="padding-left: 25px;padding-top:10px">
+                <div class="col-3" >
+                  <span class="row l-additional-info-label">Availability</span>
+                </div>
+                <div class="col-8">
+                  <span class="l-additional-info-label margin-30-res" style="color: black;">Kathmandu, Nepal</span>
+                </div>
               </div>
+              <div class="row" style="padding-left: 25px;padding-top:10px">
+                <div class="col-3" >
+                  <span class="row l-additional-info-label">Return Policy</span>
+                </div>
+                <div class="col-8">
+                  <span class="l-additional-info-label margin-30-res" style="color: black;">Returnable</span>
+                </div>
+              </div>
+                
             </div>
           </div>
         </div>
