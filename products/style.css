@@ -56,6 +56,7 @@
 .l-small-image {
   border: solid var(--lighter-primary-color) 2px;
   vertical-align: bottom;
+  margin-top: 10px;
   transform: border 0.5s;
 }
 .l-small-image:hover {
