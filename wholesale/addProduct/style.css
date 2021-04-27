@@ -1,0 +1,278 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap");
+.l-tab-bar {
+  padding: 10px;
+  background-color: var(--main-color);
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+
+.l-breadcrumb {
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 70%;
+}
+:root {
+  --main-color: #1a1938;
+  --secondary-color: #fff;
+  --tertiary-color: #323648;
+  --text-color: #323648;
+  --grey-200: #e9ecef;
+  --btn-color: #4152ad;
+  --lighter-primary-color: #e0e0e0;
+  --product-description-background: #f3f3f3;
+  --light-grey: rgb(116, 116, 116);
+}
+.l-text-style-2 {
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 60%;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  -webkit-transition: border-bottom 0.5s, background 0.5s;
+  -o-transition: border-bottom 0.5s, background 0.5s;
+  transition: border-bottom 0.5s, background 0.5s;
+  align-self: center;
+  border-left: solid 1px var(--main-color);
+  border-right: solid 1px var(--main-color);
+  transition: border-right 0.5s, border-left 0.5s;
+}
+.l-text-style-2:hover {
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+  cursor: pointer;
+}
+
+.l-big-image {
+  border: solid var(--tertiary-color) 2px;
+}
+.l-small-image {
+  border: solid var(--lighter-primary-color) 2px;
+  vertical-align: bottom;
+  margin-top: 10px;
+  transform: border 0.5s;
+}
+.l-small-image:hover {
+  border: solid var(--main-color) 2px;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+.product-description-main-div {
+  background: var(--product-description-background);
+  padding: 20px;
+}
+
+.l-local-delivery {
+  margin-top: 0px;
+  font-size: 14px;
+  color: var(--light-grey);
+}
+.l-product-price {
+  font-size: 17px;
+  color: var(--tertiary-color);
+  font-family: "Port Lligat Slab", serif;
+  padding-right: 15px;
+  border: none;
+  background: transparent;
+  border: solid 1px transparent;
+}
+
+.l-social-media {
+  font-size: 14px;
+  color: var(--tertiary-color);
+  font-family: "Port Lligat Slab", serif;
+}
+.l-price-and-share-div {
+  padding-bottom: 20px;
+  border-bottom: solid rgb(202, 202, 202) 2px;
+}
+.l-quantity-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid rgb(221, 221, 221) 2px;
+}
+.l-label-1 {
+  font-family: "Port Lligat Slab", serif;
+}
+.quantity-counter {
+  padding: 5px;
+  background: white;
+  margin-inline: 10px;
+  padding-inline: 20px;
+  border: solid rgb(202, 202, 202) 2px;
+}
+.bi-dash,
+.bi-plus {
+  border: solid rgb(202, 202, 202) 2px;
+  font-size: 25px;
+  padding-inline: 5px;
+}
+.bi-dash,
+.bi-plus {
+  cursor: pointer;
+}
+.l-product-fixation-1 {
+  padding: 5px;
+  padding-inline: 60px;
+}
+.addtocart-btn {
+  margin-top: 15px;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: var(--main-color);
+  border: solid 2px var(--main-color);
+  transition: background 0.5s, color 0.5s;
+  font-size: 15px;
+  cursor: pointer;
+}
+.addtocart-btn:hover {
+  background: white;
+  color: var(--main-color);
+}
+.l-product-description {
+  padding-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+  font-size: 12px;
+  text-align: justify;
+  border: none;
+  background: transparent;
+  padding-inline: 0;
+}
+.l-product-description:focus {
+  padding-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+  font-size: 12px;
+  text-align: justify;
+  border: solid grey 1px;
+  background: white;
+  padding-inline: 10px;
+}
+.additional-information {
+  margin-top: 20px;
+}
+
+.color-choose {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-inline: 5px;
+  border: solid 0.1px grey;
+}
+.color-blue {
+  background: rgb(18, 18, 151);
+}
+.color-black {
+  background: black;
+}
+.color-white {
+  background: white;
+}
+.color-yellow {
+  background: rgb(255, 255, 0);
+}
+.color-orange {
+  background: orangered;
+}
+.l-additional-info-label {
+  font-size: 12px;
+  font-family: "Port Lligat Slab", serif;
+  color: grey;
+}
+.property-value-div {
+  margin-top: 8px;
+}
+.color-black {
+  color: black;
+}
+.l-md-remove {
+  display: block;
+}
+.l-text-field {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Port Lligat Slab", serif;
+  border: none;
+  background: transparent;
+  width: 100%;
+  resize: none;
+  height: fit-content;
+}
+.l-text-field::placeholder {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Port Lligat Slab", serif;
+  color: var(--text-color);
+}
+.l-text-field:focus {
+  padding: 5px;
+  font-size: 14px;
+  border: solid grey 1px;
+  width: 100%;
+  border-radius: 5px;
+  background: white;
+  font-family: "Port Lligat Slab", serif;
+}
+
+.l-product-price:focus {
+  font-size: 17px;
+  color: var(--tertiary-color);
+  font-family: "Port Lligat Slab", serif;
+  border: solid grey 1px;
+  background: white;
+  padding-left: 10px;
+}
+.input[type="file"] {
+  display: none;
+}
+.l-input-main-photo {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  width: 150%;
+}
+
+@media (max-width: 768px) {
+  .product-description-main-div {
+    margin-top: 20px;
+  }
+  .l-product-fixation-1 {
+    padding: 5px;
+    padding-inline: 30px;
+  }
+  .margin-30-res {
+    margin-left: 30px;
+  }
+  .l-md-remove {
+    display: none;
+  }
+  .l-input-main-photo {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+}
