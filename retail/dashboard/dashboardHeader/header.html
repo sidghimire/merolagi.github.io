@@ -1,0 +1,71 @@
+<div
+  class="offcanvas offcanvas-start"
+  tabindex="-1"
+  id="sidebar"
+  aria-labelledby="offCanvasSidebar"
+  style="width: 300px"
+>
+  <div class="offcanvas-header">
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div
+    class="offcanvas-body small"
+    style="display: flex; flex-direction: column"
+  ></div>
+</div>
+
+<div
+  class="container-fluid d-flex sticky-top no-gutters bg-light"
+  style="
+    align-items: center;
+    z-index: 999;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  "
+>
+  <div class="d-flex" style="width: 100%; padding: 5px">
+    <a
+      class="bi-justify l-bar-icon"
+      data-bs-toggle="offcanvas"
+      href="#sidebar"
+      role="button"
+      aria-controls="offCanvasSidebar"
+    >
+    </a>
+    <a href="/"><img src="/images/logo.png" class="image-type-1" alt="" /></a>
+    <div class="dropdown" style="margin-left: auto">
+      <div
+        class="l-profile-btn"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        style="border-radius: 50%"
+      >
+        <span class="bi-person" style="font-size: 14px"></span>
+      </div>
+      <ul
+        class="dropdown-menu"
+        aria-labelledby="dropdownMenuButton1"
+        style="padding-inline: 5px"
+      >
+        <li>
+          <a class="dropdown-item l-header-dropdown-item" href="#">Profile</a>
+        </li>
+        <li>
+          <a class="dropdown-item l-header-dropdown-item" href="#">Setting</a>
+        </li>
+        <li>
+          <a class="dropdown-item l-header-dropdown-item" href="#">Privacy</a>
+        </li>
+        <li class="bg-warning" style="color: white">
+          <a class="dropdown-item l-header-dropdown-item" href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
