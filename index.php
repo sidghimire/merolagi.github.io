@@ -42,7 +42,7 @@
         <img src="./images/wallpaper.jpg" class="l-wallpaper-image" alt="" />
       </div>
       <div class="col-md-6 d-flex flex-column l-fixation-2">
-        <span class="text-style-3">Where Trade Happens</span>
+        <span class="text-style-3">Where Trades Happen</span>
         <span class="text-style-4">
           When You need to sell product but dont know what shopping site to
           trust. We work with you and your partners for free. Customer service
