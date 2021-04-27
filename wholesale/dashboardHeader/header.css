@@ -1,0 +1,103 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+:root {
+  --main-color: #1a1938;
+  --secondary-color: #fff;
+  --tertiary-color: #323648;
+  --text-color: #323648;
+  --grey-200: #e9ecef;
+  --btn-color: #4152ad;
+}
+.l-bar-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  font-size: 20px;
+  color: black;
+}
+.l-bar-icon:hover {
+  color: black;
+}
+.l-dropdown-item {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+.l-header-dropdown-item {
+  font-size: 12px;
+}
+.l-dashboard-title {
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: var(--tertiary-color);
+  margin-top: 20px;
+}
+.l-grid-border {
+  border: solid 1px rgb(228, 228, 228);
+  padding: 10px;
+  transition: background 0.25s;
+}
+.l-grid-border:hover {
+  background: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.image-type-1 {
+  max-width: 30px;
+}
+
+.l-offcanvas-item {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  color: white;
+  transition: background 0.5s;
+  cursor: pointer;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.l-offcanvas-item:hover {
+  background: var(--tertiary-color);
+  color: white;
+}
+
+.l-offcanvas-icon {
+  margin-right: 20px;
+  font-size: 18px;
+  align-self: center;
+}
+.l-canvas-label {
+  align-self: center;
+}
+.l-profile-btn {
+  color: white;
+  background: grey;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .l-md-collapse {
+    display: none;
+  }
+}
