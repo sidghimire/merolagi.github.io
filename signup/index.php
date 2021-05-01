@@ -49,7 +49,7 @@
                         <label for="email">Enter Your Password</label>
                         <input type="password" class="l-text-field-1" id="email" placeholder="Password" required>
                     </div>
-                    <button type="submit" class="btn btn-success l-login-btn">Login</button>
+                    <button type="submit" class="btn btn-success l-login-btn">Sign Up</button>
                     <span class="l-font-3">Already Have An Account? <a class="l-font-4" href="/login/">Login Here</a></span>
                 </div>
             </div>
