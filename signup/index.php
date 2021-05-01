@@ -21,9 +21,9 @@
     <title>| Login | Merolagi.com</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <a href="/" class="container-fluid">
         <img src="/logo.png" style="width: 50px;margin:10px" alt="">
-    </div>
+    </a>
     <div class="container-fluid l-main-container">
         <div class="row">
             <div class="col-md-6 l-md-remove">
