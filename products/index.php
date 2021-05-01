@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
-    />
+   
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <script src="/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" />
