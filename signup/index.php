@@ -35,7 +35,7 @@
                         Have A Great Time 
                     </span>
                     <span class="l-font-2">
-                        To Keep Connected With Us Please Login With Your Personal Information 
+                        To Keep Connected With Us Please Login With Your Personal Information
                     </span>
                     <div class="" style="display: flex;flex-direction:column;margin-top: 5px;">
                         <label for="email">Enter Your Email</label>
