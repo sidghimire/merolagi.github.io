@@ -15,7 +15,8 @@ if($conn){
             $checkExist2="SELECT id from `db101` WHERE token='{$token}'";
             $executeCheckExist2=mysqli_query($conn,$checkExist2);
             if(!mysqli_num_rows($executeCheckExist2)>0){
-                $insertValue="INSERT INTO `db101`(`token`, `email`, `pswd`, `username`, `date`, `time`) VALUES ('{$token}','{$email}','{$password}','{$username}','".date('Y/m/d')."','".date('H:i:s')."')";
+                $hashPassword=password_hash($password, PASSWORD_DEFAULT);
+                $insertValue="INSERT INTO `db101`(`token`, `email`, `pswd`, `username`, `date`, `time`) VALUES ('{$token}','{$email}','{$hashPassword}','{$username}','".date('Y/m/d')."','".date('H:i:s')."')";
                 $executeInsert=mysqli_query($conn, $insertValue);
                 if($executeInsert){
                     echo "Query Executed";

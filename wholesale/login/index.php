@@ -9,6 +9,8 @@
     
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.js"></script>
+
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&display=swap" rel="stylesheet">
@@ -30,7 +32,7 @@
                 <img src="/login/mainImage.png" class="w-100" alt="">
             </div>
             <div class="col-md-6">
-                <div class="container-fluid" style="padding:20px;display:flex;flex-direction:column">
+                <form method="POST" id="submitForm" class="container-fluid" style="padding:20px;display:flex;flex-direction:column">
                     <span class="l-font-1">
                         Welcome Back 
                     </span>
@@ -43,13 +45,14 @@
                     </div>
                     <div class="" style="display: flex;flex-direction:column;margin-top: 5px;">
                         <label for="email">Enter Your Password</label>
-                        <input type="password" class="l-text-field-1" id="email" placeholder="Password">
+                        <input type="password" class="l-text-field-1" id="password" placeholder="Password">
                     </div>
                     <button class="btn btn-success l-login-btn">Login</button>
                     <span class="l-font-3">Don't Have An Account? <a class="l-font-4" href="/wholesale/signup/">Sign Up</a></span>
-                </div>
+                </form>
             </div>
         </div>
     </div>
+    <script src="./control/control.js"></script>
   </body>
 </html>
