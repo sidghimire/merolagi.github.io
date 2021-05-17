@@ -30,7 +30,7 @@
       <div class="l-register-div">
         <i class="bi-stars"></i>
         Join Us And Become Major Market Leaders
-        <a href="/wholesale/dashboard/"
+        <a href="/wholesale/signup/"
           class="text-style-2 btn-type-2"
           style="margin-inline: 20px; width: 50%; text-align: center;text-decoration:none"
           >Register As WholeSeller</a
