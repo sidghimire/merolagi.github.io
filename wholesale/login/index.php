@@ -1,3 +1,6 @@
+<?php
+    include $_SERVER['DOCUMENT_ROOT'].'/wholesale/essentials/redirectIn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,6 +26,7 @@
     <title>| Login | Merolagi.com</title>
   </head>
   <body>
+  
     <a href="/" class="container-fluid">
         <img src="/logo.png" style="width: 50px;margin:10px" alt="">
     </a>

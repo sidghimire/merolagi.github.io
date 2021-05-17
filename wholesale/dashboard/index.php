@@ -1,3 +1,6 @@
+<?php
+    include $_SERVER['DOCUMENT_ROOT'].'/wholesale/essentials/redirectOut.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
