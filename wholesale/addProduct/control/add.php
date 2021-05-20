@@ -22,6 +22,7 @@ if ($conn) {
             $alias = str_replace(".", "-", $alias);
             $alias = str_replace("?", "-", $alias);
             $alias = str_replace(",", "-", $alias);
+            $alias = str_replace("&", "-", $alias);
             if ($add != 0) {
                 $alias = $alias . "-" . $add;
             }

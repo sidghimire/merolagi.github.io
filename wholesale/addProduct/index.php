@@ -88,14 +88,14 @@
 
         <div class="l-input-unit l-append-primary-image">
           <label for="description" class="l-input-label">Primary Image</label>
-          <input type="file" id="primaryImage" accept="image/gif, image/jpeg, image/jpg, image/png" class="custom-file-input" title="Input Primary Images">
+          <input type="file" id="primaryImage" accept="image/gif, image/jpeg, image/jpg, image/png" class="custom-file-input" title="Input Primary Images" required>
           <div class="w-100 l-primary-image-div">
             <img src="" id="primaryOutput" class="w-100" alt="">
           </div>
         </div>
         <div class="l-input-unit">
           <label for="description" class="l-input-label">Primary Secondary Images</label>
-          <input type="file" id="secondaryImage" accept="image/gif, image/jpeg, image/jpg, image/png" class="custom-file-input" title="Input Primary Images" multiple>
+          <input type="file" id="secondaryImage" accept="image/gif, image/jpeg, image/jpg, image/png" class="custom-file-input" title="Input Primary Images" multiple required>
           <div class="row l-secondary-image-container">
 
           </div>
