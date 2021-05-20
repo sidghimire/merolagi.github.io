@@ -1,3 +1,6 @@
+<?php
+    include $_SERVER['DOCUMENT_ROOT'].'/wholesale/essentials/redirectIn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
