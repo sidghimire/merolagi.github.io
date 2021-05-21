@@ -1,3 +1,6 @@
+<?php
+    include $_SERVER['DOCUMENT_ROOT'].'/advertiser/essentials/redirectOut.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,7 +18,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <script src="/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" />
-    <link href="/retail/dashboard/dashboardHeader/header.css" rel="stylesheet">
+    <link href="/wholesale/dashboardHeader/header.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
@@ -25,7 +28,7 @@
   </head>
   <body>
     <?php
-      include $_SERVER['DOCUMENT_ROOT'].'/retail/dashboard/dashboardHeader/header.html';
+      include $_SERVER['DOCUMENT_ROOT'].'/advertiser/dashboardHeader/header.html';
     ?>
     <div class="w-100 l-tab-bar">
       Welcome Back,Sid.
@@ -33,7 +36,7 @@
     <div class="l-breadcrumb" style="padding:20px;padding-bottom:0">
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Retailer Portal</li>
+          <li class="breadcrumb-item">Advertiser Portal</li>
           <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
         </ol>
       </nav>

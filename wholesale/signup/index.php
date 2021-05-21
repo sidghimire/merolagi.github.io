@@ -31,7 +31,7 @@
     <div class="container-fluid l-main-container">
         <div class="row">
             <div class="col-md-6 l-md-remove">
-                <img src="/signup/mainImage.png" class="w-100" alt="">
+                <img src="/wholesale/signup/mainImage.png" class="w-100" alt="">
             </div>
             <div class="col-md-6">
                 <form class="container-fluid" id="submitForm" method="POST" style="padding:20px;display:flex;flex-direction:column">
