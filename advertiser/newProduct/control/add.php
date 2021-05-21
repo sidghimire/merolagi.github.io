@@ -38,21 +38,19 @@ if ($conn) {
                     $allowed = array('gif', 'png', 'jpg', 'jpeg');
                     $ext = explode('.', $primaryImageName);
                     $ext = end($ext);
-                    $secondaryImage=$_FILES['secondaryImage']['name'];
-                    $sizeofImage= sizeof($secondaryImage);
-                    for ($i = 0; $i < $sizeofImage; $i++) {
-                        
+                    
+                    for ($i = 0; $i < sizeof($secondaryImage); $i++) {
                         $secondaryImageName = $_FILES['secondaryImage']['name'][$i];
                         $secondaryImageTempName = $_FILES['secondaryImage']['tmp_name'][$i];
                         $secondaryImageSize = $_FILES['secondaryImage']['size'][$i];
-                        $allowed = array('gif', 'png', 'jpg', 'jpeg','GIF', 'PNG', 'JPG', 'JPEG');
+                        $allowed = array('gif', 'png', 'jpg', 'jpeg');
                         $ext = explode('.', $secondaryImageName);
                         $ext = end($ext);
                         if (in_array($ext, $allowed)) {
                             if ($secondaryImageSize <= 2097152) {
                                 redo4:
                                 $secondaryImageToken = uniqid();
-                                $checkImageToken = "SELECT `id` FROM `db1023` WHERE `image`='{$secondaryImageToken}.{$ext}'";
+                                $checkImageToken = "SELECT `id` FROM `db1024` WHERE `image`='{$secondaryImageToken}.{$ext}'";
                                 $exeCheckImageToken = mysqli_query($conn, $checkImageToken);
                                 if (mysqli_num_rows($exeCheckImageToken) == 0) {
                                     $folder = $_SERVER['DOCUMENT_ROOT'] . "/essentials/database/images/";
@@ -74,12 +72,13 @@ if ($conn) {
                         if ($primaryImageSize <= 2097152) {
                             redo3:
                             $primaryImageToken = uniqid();
-                            $checkImageToken = "SELECT `id` FROM `db1022` WHERE `image`='{$primaryImageToken}.{$ext}'";
+                            $checkImageToken = "SELECT `id` FROM `db1024` WHERE `image`='{$primaryImageToken}.{$ext}'";
                             $exeCheckImageToken = mysqli_query($conn, $checkImageToken);
                             if (mysqli_num_rows($exeCheckImageToken) == 0) {
                                 $folder = $_SERVER['DOCUMENT_ROOT'] . "/essentials/database/images/";
                                 if (move_uploaded_file($primaryImageTempName, $folder . $primaryImageToken . "." . $ext)) {
                                     $sqlSec1 = "INSERT INTO `db1022`( `image`, `token`, `uploadDate`, `uploadTime`) VALUES ('{$primaryImageToken}.{$ext}','{$token}','" . date("Y/m/d") . "','" . date('H:i:s') . "')";
+                                    echo $sqlSec1;
                                     $sql1 = "INSERT INTO `db1020`( `productToken`, `userToken`, `alias`, `uploadDate`, `uploadTime`) VALUES ('{$token}','{$_COOKIE['token']}','{$alias}','" . date("Y/m/d") . "','" . date('H:i:s') . "')";
                                     $sql2 = "INSERT INTO `db102`(`token`, `name`, `price`, `quantity`, `category`, `description`, `uploadDate`, `uploadTime`) VALUES ('{$token}','{$title}','{$price}','{$quantity}','{$category}','{$description}','" . date("Y/m/d") . "','" . date('H:i:s') . "')";
                                     for ($i = 0; $i < sizeof($featureTitle); $i++) {
