@@ -71,7 +71,8 @@ if (mysqli_num_rows($result) == 1) {
           <div class="l-price-and-share-div row" style="margin-top: 35px;">
             <div class="col-md-6">
               <div class="l-product-price">
-                Rs. <?php echo $generalRow['price'] ?>
+                Rs. <?php echo round($generalRow['price'] * 1.1, 0) ?>
+
               </div>
             </div>
 

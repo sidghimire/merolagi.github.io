@@ -64,7 +64,7 @@ $result = mysqli_query($conn, $sql1);
                 <h5 class="card-title"><?php echo $generalRow['name']; ?></h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Price:<span style="color: grey;"> Rs. <?php echo $generalRow['price']; ?></span></li>
+                <li class="list-group-item">Price:<span style="color: grey;"> Rs. <?php echo $generalRow['price']*1.1; ?></span></li>
                 <li class="list-group-item">Stock:<span style="color: grey;"> <?php echo $generalRow['quantity']; ?></span></li>
               </ul>
               <div class="card-body">

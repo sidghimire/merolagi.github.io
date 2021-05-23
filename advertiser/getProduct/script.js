@@ -14,7 +14,7 @@ $(document).ready(function() {
             dataType: "text",
             success: function(response) {
                 if (response != "Failed") {
-                    window.location.href = "/advertiser/setupSite/index.php?transactionToken=" + response + "";
+                    window.location.href = "/advertiser/advertise/index.php?transactionToken=" + response + "";
 
                 }
 

@@ -1,0 +1,69 @@
+.l-dashboard-title {
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    margin-top: 20px;
+}
+
+.l-grid-border {
+    border: solid 1px rgb(228, 228, 228);
+    padding: 10px;
+    transition: background 0.25s;
+}
+
+.l-grid-border:hover {
+    background: rgb(250, 250, 250);
+    cursor: pointer;
+}
+
+.image-type-1 {
+    max-width: 30px;
+}
+
+.l-tab-bar {
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+}
+
+.l-breadcrumb {
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 70%;
+}
+
+.l-profile-btn {
+    color: white;
+    background: grey;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.l-table-left {
+    color: black;
+    font-size: 12px;
+    padding: 7px;
+    padding-inline: 20px;
+}
+
+.l-table-right {
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    text-align: right;
+    padding: 7px;
+    padding-inline: 20px;
+}
+
+.l-table-row {
+    border: solid rgb(207, 207, 207) 1px;
+}
+
+.bg-grey {
+    background: rgb(223, 223, 223);
+}
